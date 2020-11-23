@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+  }
+  html,body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+div.page{
+  width: 1440px;
+  height: 947px;
+  background-color: rgba(0, 0, 0, 0.43);
+  position: relative;
+
+}
+
+section.bg{
+    width: 710px;
+    height: 459px;
+    padding: 20px 20px 32px 75px;
+    border-radius: 8px;
+    margin : 220px auto;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+ .newsletter div.btn-close{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    object-fit: contain;
+ }
+
+div.newsletter-img {
+    height: 147px;
+    width: 247px;
+    margin: 24px auto;
+    object-fit: contain;
+}
+
+.newsletter h1.subscribe_to_our_new {
+    width: 401px;
+    height: 42px;
+    margin: 16px 110px 10px 80px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: condensed;
+    text-align: center;
+    color: #0082c3;
+  }
+
+  .newsletter p.sign_up_to_our_newsl {
+    width: 559px;
+    height: 19px;
+    margin: 10px 32px 24px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-stretch: condensed;
+    text-align: center;
+    color: #1a171b;
+  }
+
+  .newsletter div.newsletter-form_box
+  {
+      width: 420px;
+      margin: 24px 111px 0px 60px;
+}
+
+  .newsletter-form_box div.newsletter-email-box{
+      width: 100%;
+      height: 40px;
+      padding: 12px 16px;
+      border: solid 1px #cbcbcb;
+      border-radius: 3px;
+  }
+
+  .newsletter-form input[type='email']{
+    width: 100%;
+    height: 100% ;
+    border: none;
+}
+
+.newsletter-form input[type='button']{
+    width: 100%;
+    height: 40px;
+    margin-top:24px;
+    background-color: rgb(255, 214, 80);
+    font-weight: bold;
+    border: none;
+}
+.newsletter-form input[type='email']:focus{
+    outline: none;
+  }
+
+footer p {
+    width: 249px;
+    height: 11px;
+    margin: 10px 194px 0 148px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-stretch: condensed;
+    text-align: center;
+    color: #787878;
+}
+
