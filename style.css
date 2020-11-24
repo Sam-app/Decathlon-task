@@ -1,4 +1,5 @@
 
+/* Css Preset */
 *,
 *::after,
 *::before {
@@ -12,6 +13,8 @@
     height : 100%;
   }
 
+
+  /* Main style */
 div.page{
   width: 100%;
   min-height: 100%;
@@ -28,31 +31,32 @@ div.newsletter{
     width: 710px;
     max-width: 95%;
     min-height: 459px;
-    
-    position: relative;
 
     padding: 20px 48px 32px 48px;
     margin : auto;
 
     border-radius: 8px;
-    background-color: #ffffff;
-   
-    
+    background-color: #ffffff;  
+
+    position: relative;
   }
 
  .newsletter button.btn-close{
     width: 24px;
     height: 24px;
+
     position: absolute;
     border: none;
     top: 20px;
     right: 20px;
+
     object-fit: contain;
  }
 
 div.newsletter-img {
     height: 147px;
     width: 247px;
+
     margin: 24px auto;
     object-fit: contain;
 }
@@ -60,7 +64,9 @@ div.newsletter-img {
 .newsletter h1.subscribe_to_our_new {
     width: 100%;
     min-height: 42px;
+
     margin: 16px auto 10px ;
+
     font-family: Roboto;
     font-size: 36px;
     font-weight: bold;
@@ -70,12 +76,12 @@ div.newsletter-img {
 
   .newsletter p.sign_up_to_our_newsl {
     width: 100%;
+
     text-align: center;
     margin: 10px auto 24px;
     font-family: Roboto;
     font-size: 16px;
     font-stretch: condensed;
-    text-align: center;
     color: #1a171b;
   }
 
@@ -93,6 +99,7 @@ form.newsletter-form{
   .newsletter-form_box div.newsletter-email-box{
       width: 100%;
       height: 40px;
+
       padding: 12px 16px;
       border: solid 1px #cbcbcb;
       border-radius: 3px;
@@ -102,12 +109,14 @@ form.newsletter-form{
   .newsletter-form input[type='email']{
     width: 100%;
     height: 100% ;
+
     border: none;
 }
 
 .newsletter-form input[type='button']{
     width: 100%;
     height: 40px;
+
     margin-top:24px;
     background-color: rgb(255, 214, 80);
     font-weight: bold;
@@ -120,33 +129,33 @@ form.newsletter-form{
 footer p {
     width: 100%;
     height: 11px;
+    
     margin: 10px auto 0 auto;
+
     font-family: Roboto;
     font-size: 10px;
     font-stretch: condensed;
     text-align: center;
     color: #787878;
 }
+/* - End of main style */
 
 
-
+/* Screeen size between 320px - 590px
+Resize header and subheader font size */
 @media only screen and (max-width: 590px){
     .newsletter h1.subscribe_to_our_new {
-        font-size: 24px;
-        
+        font-size: 24px;   
       }
     
       .newsletter p.sign_up_to_our_newsl {
-        font-size: 14px;
-        
+        font-size: 14px;  
       }
 
 }
 
-@media only screen and (max-width: 320px){
-
-
-    
+/* Screen size less 320px */
+@media only screen and (max-width: 320px){    
     div.page{
         width: 100%;
         height: 100%;
@@ -171,6 +180,7 @@ footer p {
     div.newsletter-img {
         height: 21.37%;
         width: 168;
+
         max-width: 80%;
         margin: 24px auto;
     }
@@ -179,6 +189,7 @@ footer p {
 .newsletter h1.subscribe_to_our_new {
     width: 100%;
     margin: 16px auto 0px auto;
+
     font-family: Roboto;
     font-size: 20px;
     
@@ -186,8 +197,10 @@ footer p {
 
   .newsletter p.sign_up_to_our_newsl {
     width: 100%;
+
     text-align: center;
     margin: 10px auto 0;
+
     font-family: Roboto;
     font-size: 14px;
     
@@ -208,6 +221,7 @@ footer p {
       width: 250px;
       max-width: 96%;
       height: 40px;
+
       padding: 12px 16px;
   }
 
@@ -221,6 +235,7 @@ footer p {
     width: 250px;
     max-width: 96%;
     height: 40px;
+
     margin-top:24px;
     
 }
@@ -228,8 +243,8 @@ footer p {
 
 footer p {
     width: 100%;
-
     height: 11px;
+    
     margin: 10px auto 0 auto;
 }
     
